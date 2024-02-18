@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Container */
+.main-container {
+    display: grid;
+    grid-template-rows: rows; /* You probably want to define grid-template-rows here */
+    gap: 1rem;
+}
+
+/* Above Card */
+.above-card {
+    height: 33vh;
+    width: 28%;
+    background-image: linear-gradient(to right, #DEB6AB, #85586F);
+}
+
+/* Body Content */
+.body-content {
+    display: flex;
+    gap: 1rem;
+    margin-top: 3.5rem;
+    color: #333333;
+}
+
+/* Logo */
+.logo {
+    height: 4.5vh;
+    width: 4.5vh;
+    border-radius: 50%;
+    border: 1px solid #4b3d3d; /* Changed border color for better visibility */
+    margin-left: 3.6rem;
+    text-align: center;
+}
+
+/* Sub Heading */
+.sub_heading {
+    color:#333333;
+    margin-left: 6.3rem;
+}
+
+/* Down Card */
+.down-card {
+    color: #333333;
+    height: 33vh;
+    width: 28%;
+    background-image: linear-gradient(to right, #DEB6AB, #85586F);
+}
+
+/* Links */
+.linkedIn,
+.gitHub,
+.email,
+.resume,
+.twitter {
+    color: #333333;
+    margin-left: 28%;
+}
+
+/* Adjustments for Free and Software */
+.free {
+    margin-top: 8%;
+    margin-left: 25%; /* Adjusted for better alignment */
+}
+
+.software {
+    margin-top: 1%;
+    margin-left: 28%;
+}
